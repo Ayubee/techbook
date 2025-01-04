@@ -1,0 +1,54 @@
+.header {
+}
+.header__container {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+}
+
+.header__logo {
+}
+.site-logo {
+}
+.header__hero {
+  padding-top: 4.8rem;
+}
+.header__hero__container {
+  display: flex;
+  align-items: center;
+}
+.hero__content {
+}
+.hero__title {
+  margin-bottom: 2.4rem;
+}
+.hero__subtitle {
+}
+.btn {
+}
+.header__hero-btn {
+}
+.btn-text {
+}
+.header__hero__memebers {
+}
+.hedaer__hero__memebers__box {
+  display: flex;
+}
+.hedaer__hero__memebers__box__starts {
+}
+.header__hero__subtitle {
+}
+.header__hero__images {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 850px) {
+  .header__hero {
+    padding-top: 3.2rem;
+  }
+
+  .header__hero__container {
+    flex-direction: column;
+  }
+}
