@@ -24,7 +24,7 @@ ol {
 
 a {
   display: inline-block;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 img {
@@ -36,10 +36,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  // font-size: ;
-  // font-family: ;
-  // font-weight: ;
-  // line-height: ;
+  font-size: $font-family;
+  font-family: $font-family;
+  font-weight: $font-width;
+  line-height: $line-height;
 }
 
 main {
@@ -48,9 +48,22 @@ main {
 
 .container {
   width: 100%;
-  max-width: 1200px; /* you need change it  */
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
 }

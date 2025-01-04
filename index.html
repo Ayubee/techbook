@@ -23,25 +23,83 @@
       <div class="header__hero">
         <div class="header__hero__container container">
           <div class="hero__content">
-            <h1 class="hero__title">Join the ultimate tech book club</h1>
-            <p class="hero__subtitle">
+            <h1 class="hero__title text-preset-1">
+              Join the ultimate tech book club
+            </h1>
+            <p class="hero__subtitle text-preset-5">
               Turn your reading time into learning time with fellow tech
               enthusiasts. Get curated recommendations, join vibrant
               discussions, and level up your skills one chapter at a time.
             </p>
-            <a class="btn header__hero-btn" href="#"
+            <a class="btn header__hero-btn text-preset-6" href="#"
               ><span class="btn-text">REVIEW MEMBERSHIP OPTIONS</span></a
             >
-            <div class="header__hero__memebers">
+            <div class="header__hero__contner">
               <img
                 src="./src/images/image-avatars.webp"
                 alt="Avatars"
                 width="110"
                 height="40"
               />
+              <div class="header__hero__memebers">
+                <div class="hedaer__hero__memebers__box">
+                  <span>
+                    <img
+                      class="hedaer__hero__memebers__box__starts"
+                      src="./src/images/icon-star.svg"
+                      alt=""
+                    />
+                  </span>
+                  <span>
+                    <img
+                      class="hedaer__hero__memebers__box__starts"
+                      src="./src/images/icon-star.svg"
+                      alt=""
+                    />
+                  </span>
+                  <span>
+                    <img
+                      class="hedaer__hero__memebers__box__starts"
+                      src="./src/images/icon-star.svg"
+                      alt=""
+                    />
+                  </span>
+                  <span>
+                    <img
+                      class="hedaer__hero__memebers__box__starts"
+                      src="./src/images/icon-star.svg"
+                      alt=""
+                    />
+                  </span>
+                  <span>
+                    <img
+                      class="hedaer__hero__memebers__box__starts"
+                      src="./src/images/icon-star.svg"
+                      alt=""
+                    />
+                  </span>
+                </div>
+                <p class="header__hero__subtitle text-preset-7">
+                  200+ developers joined already
+                </p>
+              </div>
             </div>
           </div>
-          <img src="./src/images/image-hero-desktop.webp" alt="" />
+          <picture>
+            <source
+              srcset="./src/images/image-hero-mobile.webp"
+              media="(max-width: 375px)"
+            />
+            <source
+              srcset="./src/images/image-hero-tablet.webp"
+              media="(max-width: 850px)"
+            />
+            <img
+              class="header__hero__images"
+              src="./src/images/image-hero-desktop.webp"
+              alt="Chill Guys read books"
+            />
+          </picture>
         </div>
       </div>
     </header>
