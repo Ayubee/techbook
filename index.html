@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tech Book</title>
     <link rel="stylesheet" href="./styles/style.min.css" />
   </head>
   <body>
     <!-- HEADER START -->
-    <header class="header">
+    <header class="header" id="hedaer">
       <div class="header__container container">
         <div class="header__logo">
           <a class="site-logo" href="./index.html"
@@ -108,29 +108,83 @@
     <main class="main">
       <section class="page">
         <div class="page__container container">
+          <div class="page__content__box">
+            <h2 class="page__title text-preset-2">
+              Read together, <br />
+              grow together
+            </h2>
+            <div class="page__box">
+              <ul class="page__list">
+                <li class="page__item">
+                  <img
+                    src="./src/images/icon-check.svg"
+                    alt=""
+                    width="28"
+                    height="28"
+                  />
+                  <span class="page__item__text text-preset-5"
+                    >Monthly curated tech reads selected by industry
+                    experts</span
+                  >
+                </li>
+                <li class="page__item">
+                  <img
+                    src="./src/images/icon-check.svg"
+                    alt=""
+                    width="28"
+                    height="28"
+                  />
+                  <span class="page__item__text text-preset-5"
+                    >Virtual and in-person meetups for deep-dive
+                    discussions</span
+                  >
+                </li>
+                <li class="page__item">
+                  <img
+                    src="./src/images/icon-check.svg"
+                    alt=""
+                    width="28"
+                    height="28"
+                  />
+                  <span class="page__item__text text-preset-5"
+                    >Early access to new tech book releases</span
+                  >
+                </li>
+                <li class="page__item">
+                  <img
+                    src="./src/images/icon-check.svg"
+                    alt=""
+                    width="28"
+                    height="28"
+                  />
+                  <span class="page__item__text text-preset-5"
+                    >Author Q&A sessions with tech thought leaders</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
 
-          <source
-          srcset="./src/images/image-read-together-desktop.webp"
-          media="(max-width: 375px)"
-        />
-        <source
-          srcset="./src/images/image-read-together-desktop.webp"
-          media="(max-width: 850px)"
-        />
-        <img
-        class="page__container__images"
-        src="./src/images/image-read-together-desktop.webp"
-        alt=""
-        width="560"
-        height="520"
-      />
-      </picture>
+          <picture>
+            <source
+              srcset="./src/images/image-read-together-mobile.webp"
+              media="(max-width: 375px)"
+            />
+            <source
+              srcset="./src/images/image-read-together-tablet.webp"
+              media="(max-width: 850px)"
+            />
+            <img
+              class="page__container__images"
+              src="./src/images/image-read-together-desktop.webp"
+              alt=""
+            />
+          </picture>
 
-
-         
           <div class="page__content">
             <h2 class="page__title text-preset-2">
-              Read together, grow together
+              Read together, <br />
+              grow together
             </h2>
             <div class="page__box">
               <ul class="page__list">
@@ -185,10 +239,310 @@
           </div>
         </div>
       </section>
+
+      <section class="average">
+        <div class="average__container container">
+          <a class="average__brands" href="#">
+            <img src="./src/images/logos-tech.svg" alt=""
+          /></a>
+          <div class="average__content">
+            <h2 class="average__title text-preset-2">
+              Not your average book
+              <span class="average__text">club</span>
+            </h2>
+            <p class="average__subtitle text-preset-5">
+              Connect with a community that speaks your language - from
+              <span class="average__subtitle__text">Python</span>
+              to
+              <span class="average__subtitle__text">TypeScript</span>
+              and everything in between. Our discussions blend technical depth
+              with practical applications.
+            </p>
+          </div>
+          <picture>
+            <source
+              srcset="./src/images/image-not-average-mobile.webp"
+              media="(max-width: 375px)"
+            />
+            <source
+              srcset="./src/images/image-not-average-tablet.webp"
+              media="(max-width: 850px)"
+            />
+            <img
+              class="average__images"
+              src="./src/images/image-not-average-desktop.webp"
+              alt=""
+              width="560"
+              height="520"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <section class="journey">
+        <div class="journey__container container">
+          <h2 class="journey__title text-preset-2">
+            Your tech reading journey
+          </h2>
+
+          <div class="journey__content">
+            <div class="journey__content__box">
+              <div class="journey__box">
+                <span class="journey__box__number">1</span>
+                <span class="journey__text__images"
+                  ><img src="./src/images/pattern-arrow.svg" alt=""
+                /></span>
+              </div>
+              <h4 class="journey__content__box__title">
+                Choose your membership tier
+              </h4>
+            </div>
+            <div class="journey__content__box">
+              <div class="journey__box">
+                <span class="journey__box__number">2</span>
+                <span class="journey__text__images"
+                  ><img src="./src/images/pattern-arrow.svg" alt=""
+                /></span>
+              </div>
+              <h4 class="journey__content__box__title">
+                Get your monthly book selection
+              </h4>
+            </div>
+            <div class="journey__content__box">
+              <div class="journey__box">
+                <span class="journey__box__number">3</span>
+                <span class="journey__text__images"
+                  ><img src="./src/images/pattern-arrow.svg" alt=""
+                /></span>
+              </div>
+              <h4 class="journey__content__box__title">
+                Join our discussion forums
+              </h4>
+            </div>
+            <div class="journey__content__box">
+              <div class="journey__box">
+                <span class="journey__box__number">4</span>
+                <span class="journey__text__images"
+                  ><img src="./src/images/pattern-arrow.svg" alt=""
+                /></span>
+              </div>
+              <h4 class="journey__content__box__title">
+                Attend exclusive meetups
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="option">
+        <div class="option__container container">
+          <h2 class="option__title text-preset-2">Membership options</h2>
+
+          <div class="option__content">
+            <div class="option__card">
+              <h4 class="option__card__title text-preset-4">Starter</h4>
+              <h3 class="option__card__cash text-preset-3">
+                $19 <sup class="option__sup">/month</sup>
+              </h3>
+              <div class="option__divider"></div>
+              <div class="option__card__price">
+                <img
+                  src="./src/images/icon-check.svg"
+                  alt=""
+                  class="option__car__images"
+                  width="24"
+                  height="24"
+                />
+                <span class="option__card__text text-preset-5"
+                  >1 book/month</span
+                >
+              </div>
+              <div class="option__card__price">
+                <img
+                  src="./src/images/icon-check.svg"
+                  alt=""
+                  class="option__car__images"
+                  width="24"
+                  height="24"
+                />
+                <span class="option__card__text text-preset-5"
+                  >Online forums</span
+                >
+              </div>
+              <a
+                class="option__btn__one option__btn__hover text-preset-6"
+                href="#"
+                >SUBSCRIBE NOW</a
+              >
+            </div>
+            <div class="option__card active">
+              <h4 class="option__card__title text-preset-4">Pro</h4>
+              <h3 class="option__card__cash text-preset-3">
+                $29 <sup class="option__sup">/month</sup>
+              </h3>
+              <div class="option__divider"></div>
+              <div class="option__card__price">
+                <img
+                  src="./src/images/icon-check.svg"
+                  alt=""
+                  class="option__car__images"
+                  width="24"
+                  height="24"
+                />
+                <span class="option__card__text text-preset-5"
+                  >2 books/month</span
+                >
+              </div>
+              <div class="option__card__price">
+                <img
+                  src="./src/images/icon-check.svg"
+                  alt=""
+                  class="option__car__images"
+                  width="24"
+                  height="24"
+                />
+                <span class="option__card__text text-preset-5"
+                  >Virtual meetups</span
+                >
+              </div>
+              <a
+                class="option__btn__active option__btn__hover text-preset-6"
+                href="#"
+                >SUBSCRIBE NOW</a
+              >
+            </div>
+            <div class="option__card">
+              <h4 class="option__card__title text-preset-4">Enterprise</h4>
+              <h3 class="option__card__cash custom text-preset-3">Custom</h3>
+              <div class="option__divider"></div>
+              <div class="option__card__price">
+                <img
+                  src="./src/images/icon-check.svg"
+                  alt=""
+                  class="option__car__images"
+                  width="24"
+                  height="24"
+                />
+                <span class="option__card__text text-preset-5"
+                  >Team access</span
+                >
+              </div>
+              <div class="option__card__price">
+                <img
+                  src="./src/images/icon-check.svg"
+                  alt=""
+                  class="option__car__images"
+                  width="24"
+                  height="24"
+                />
+                <span class="option__card__text text-preset-5"
+                  >Private sessions</span
+                >
+              </div>
+              <a
+                class="option__btn__three option__btn__hover text-preset-6"
+                href="#"
+                >TALK TO US</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-box">
+        <div class="quote-box__container container">
+          <div class="quote-box__memebers">
+            <div class="quote-box__memebers__box">
+              <span>
+                <img
+                  class="quote-box__memebers__box__starts"
+                  src="./src/images/icon-star.svg"
+                  alt=""
+                />
+              </span>
+              <span>
+                <img
+                  class="quote-box__memebers__box__starts"
+                  src="./src/images/icon-star.svg"
+                  alt=""
+                />
+              </span>
+              <span>
+                <img
+                  class="quote-box__memebers__box__starts"
+                  src="./src/images/icon-star.svg"
+                  alt=""
+                />
+              </span>
+              <span>
+                <img
+                  class="quote-box__memebers__box__starts"
+                  src="./src/images/icon-star.svg"
+                  alt=""
+                />
+              </span>
+              <span>
+                <img
+                  class="quote-box__memebers__box__starts"
+                  src="./src/images/icon-star.svg"
+                  alt=""
+                />
+              </span>
+            </div>
+          </div>
+
+          <h2 class="quote-box__title text-preset-3">
+            "This book club transformed my technical reading from a solitary
+            activity into an enriching community experience. The discussions are
+            gold!"
+          </h2>
+
+          <p class="quote-box__subtitle text-preset-5">
+            Sarah Chen, Software Architect
+          </p>
+        </div>
+      </section>
     </main>
     <!-- MAIN END -->
     <!-- FOOTER START -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__container container">
+        <h2 class="footer__title text-preset-2">
+          Ready to debug your reading list?
+        </h2>
+        <a href="#hedaer" class="footer__btn text-preset-6">
+          <span class="footer__btn__text">REVIEW MEMBERSHIP OPTIONS</span>
+        </a>
+        <div class="footer__memebers">
+          <img
+            src="./src/images/image-avatars.webp"
+            alt=""
+            width="110"
+            height="40"
+          />
+          <div class="footer__memebers__box">
+            <div class="footer__memebers__box__content">
+              <img src="./src/images/icon-star.svg" alt="" />
+              <img src="./src/images/icon-star.svg" alt="" />
+              <img src="./src/images/icon-star.svg" alt="" />
+              <img src="./src/images/icon-star.svg" alt="" />
+              <img src="./src/images/icon-star.svg" alt="" />
+            </div>
+            <p class="footer__memebers__text">200+ developers joined already</p>
+          </div>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__social">
+          <p class="footer__social__text text-preset-7">
+            © 2024 – Tech Book Club
+          </p>
+          <div class="footer__social__box">
+            <a href="#"><img src="./src/images/logo-bluesky.svg" alt="" /></a>
+            <a href="#"> <img src="./src/images/logo-linkedin.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- FOOTER END -->
   </body>
 </html>
